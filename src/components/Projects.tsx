@@ -11,7 +11,7 @@ export default function Projects() {
 
   const projects = [
     {
-      title: "Zarathos AI Assistant",
+      title: "Executive AI Assistant",
       stack: "LangGraph, LiveKit, Meta API, OpenAI",
       desc: "Personal assistant handling WhatsApp chat/voice, booking appointments, and logging details to Google Sheets.",
       link: "#",

@@ -18,12 +18,12 @@ export default function Hero() {
             Sami Rashid | AI & Automation Architect
           </span>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-black tracking-tighter text-white uppercase leading-[1.1] max-w-5xl">
-            Founder of Zarathos Corp. <br /> I build <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-orange-400">intelligent agents.</span>
+            Independent AI Architect. <br /> I build <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-orange-400">intelligent agents.</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-400 max-w-3xl font-sans tracking-tight mt-8 leading-relaxed">
             I engineer AI systems that scale your business. From autonomous support bots to action-oriented workflows—reducing manual work and freeing your time.
           </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-6 pt-12 w-full">
+          <div className="flex flex-col sm:flex-row items-center justify-start gap-6 mt-8 w-full">
             <a
               href="#contact"
               className="px-10 py-5 rounded-sm bg-orange-500 hover:bg-orange-400 text-[#050505] font-black tracking-widest uppercase transition-all shadow-[0_0_30px_rgba(249,115,22,0.3)] hover:shadow-[0_0_50px_rgba(249,115,22,0.6)] w-full sm:w-auto text-center"

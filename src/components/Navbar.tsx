@@ -2,7 +2,7 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 py-4 px-6 md:px-12 backdrop-blur-md bg-[#18181B]/40 border-b border-white/5 flex justify-between items-center">
       <a href="#" className="text-xl font-heading font-black tracking-tighter text-white uppercase">
-        Zarathos<span className="text-orange-500">_</span>
+        SAMI RASHID<span className="text-orange-500">_</span>
       </a>
       <div className="hidden md:flex gap-8 items-center">
         <a href="#process" className="text-sm font-bold text-gray-400 hover:text-white transition-colors tracking-widest uppercase">Process</a>
