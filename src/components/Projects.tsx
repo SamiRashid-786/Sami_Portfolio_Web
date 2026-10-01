@@ -14,19 +14,19 @@ export default function Projects() {
       title: "Executive AI Assistant",
       stack: "LangGraph, LiveKit, Meta API, OpenAI",
       desc: "Personal assistant handling WhatsApp chat/voice, booking appointments, and logging details to Google Sheets.",
-      link: "#",
+      link: "https://github.com/SamiRashid-786/Executive-AI-Assistant",
     },
     {
-      title: "LeadFlow",
-      stack: "Python, LangGraph, CrewAI, HubSpot API",
-      desc: "Automates B2B outbound sales by researching companies and writing highly personalized email sequences based on prospect LinkedIn activity.",
-      link: "#",
+      title: "ScopeScout",
+      stack: "Python, LangGraph, Guardrails, Multi Agentic",
+      desc: "• An autonomous agentic system that transforms raw web and GitHub signals into tailored, high-impact project roadmaps using a weighted scoring matrix.",
+      link: "https://github.com/SamiRashid-786/ScopeScout",
     },
     {
-      title: "InvoicePulse",
-      stack: "Python, n8n, LangGraph, Qdrant, QuickBooks API",
-      desc: "Automates accounts payable by extracting data from emailed vendor invoices, matching against POs, and flagging discrepancies.",
-      link: "#",
+      title: "InsightFlow",
+      stack: "Python, ChromaDB, LlamaIndex, LLMs",
+      desc: "An end-to-end RAG pipeline featuring advanced parsing, hybrid search (BM25 + ChromaDB) with RRF, and token-budgeted streaming LLM generation.",
+      link: "https://github.com/SamiRashid-786/InsightFlow",
     },
   ];
 
@@ -36,7 +36,7 @@ export default function Projects() {
         <h2 className="text-4xl md:text-5xl font-heading font-black uppercase tracking-tighter text-white mb-16">
           Case <span className="text-orange-500">Studies</span>
         </h2>
-        
+
         <div ref={ref} className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {projects.map((project, i) => (
             <motion.div

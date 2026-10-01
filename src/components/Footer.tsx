@@ -22,22 +22,13 @@ export default function Footer() {
 
         <div className="flex gap-8 items-center justify-center">
           <a
-            href="https://github.com"
+            href="https://github.com/samirashid-786"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-500 hover:text-white transition-colors"
           >
             <Github className="w-8 h-8" />
             <span className="sr-only">GitHub</span>
-          </a>
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-500 hover:text-white transition-colors"
-          >
-            <Linkedin className="w-8 h-8" />
-            <span className="sr-only">LinkedIn</span>
           </a>
         </div>
       </div>
