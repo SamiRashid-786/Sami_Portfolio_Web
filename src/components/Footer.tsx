@@ -14,7 +14,7 @@ export default function Footer() {
         </div>
 
         <a
-          href="mailto:samirashidferoz@gmail.com"
+          href="mailto:samirashidferoz@gmail.com?subject=Discovery Call: AI Automation & Architecture&body=Hi Sami,%0A%0AI was looking through your architectures and I'm interested in scaling AI for my business. I'd love to book a discovery call to discuss potential synergies.%0A%0ABest,%0A[Your Name]"
           className="inline-block px-12 py-6 rounded-sm bg-orange-500 text-[#050505] font-black text-xl tracking-widest uppercase transition-all shadow-[0_0_30px_rgba(249,115,22,0.3)] hover:shadow-[0_0_50px_rgba(249,115,22,0.6)] hover:bg-orange-400 mb-20"
         >
           Book a Discovery Call
